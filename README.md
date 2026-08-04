@@ -59,21 +59,21 @@
 
 ## 🚀 Featured Projects
 
-### 🥗 [Personalized Dietary Assessment Platform](https://github.com/AkramBFS/dietary-assessment-platform)
+### 🥗 [Personalized Dietary Assessment Platform](https://github.com/AkramBFS/personalized-dietary-platform)
 > **Next.js • Django REST • PostgreSQL • FastAPI • YOLOv8**
 * Capstone full-stack platform connecting clients with nutritionists, featuring real-time AI calorie and macro estimation from meal photos via an isolated FastAPI computer vision microservice.
 
-### ⚡ [Dev Gateway Reverse Proxy](https://github.com/AkramBFS/dev-gateway)
+### ⚡ [Dev Gateway Reverse Proxy](https://github.com/AkramBFS/HTTP-server-reverse-proxy)
 > **Rust • Axum • Hyper • WebSockets**
 * A lightweight, zero-buffering local development gateway proxy written in Rust.
 * Supports transparent full-duplex WebSocket tunneling, exact prefix routing, auto-retries for idempotent requests, and strict hop-by-hop header sanitization.
 
-### 🔬 [FoodInSeg CV Research (YOLOv8 vs. YOLO26)](https://github.com/AkramBFS/foodinseg-experiments)
+### 🔬 [FoodInSeg CV Research (YOLOv8 vs. YOLO26)](https://github.com/AkramBFS/foodinseg-yolo26)
 > **Python • PyTorch • YOLO26 • OpenCV**
 * Empirical deep learning benchmark evaluating instance segmentation model improvements on the FoodInSeg dataset (73 classes).
 * Achieved **+20.3% relative improvement in Mask mAP@50** using YOLO26-L over YOLOv8-L with controlled training hyperparameters and custom stratification.
 
-### ✍️ [Smart Pen – Arabic Handwriting Assessment](https://github.com/AkramBFS/smart-pen-assessment)
+### ✍️ [Smart Pen – Arabic Handwriting Assessment](https://github.com/AkramBFS/Smart-Pen)
 > **ESP32 • Flask • WebSockets • Scikit-Learn**
 * IoT motion analysis pipeline capturing 6-axis physical dynamics via an IMU sensor at ~20Hz. Extracts 42 statistical motion features to grade handwriting proficiency using Random Forest & MLP models.
 
