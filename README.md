@@ -59,6 +59,10 @@
 
 ## 🚀 Featured Projects
 
+### 🥗 [Personalized Dietary Assessment Platform](https://github.com/AkramBFS/dietary-assessment-platform)
+> **Next.js • Django REST • PostgreSQL • FastAPI • YOLOv8**
+* Capstone full-stack platform connecting clients with nutritionists, featuring real-time AI calorie and macro estimation from meal photos via an isolated FastAPI computer vision microservice.
+
 ### ⚡ [Dev Gateway Reverse Proxy](https://github.com/AkramBFS/dev-gateway)
 > **Rust • Axum • Hyper • WebSockets**
 * A lightweight, zero-buffering local development gateway proxy written in Rust.
@@ -68,10 +72,6 @@
 > **Python • PyTorch • YOLO26 • OpenCV**
 * Empirical deep learning benchmark evaluating instance segmentation model improvements on the FoodInSeg dataset (73 classes).
 * Achieved **+20.3% relative improvement in Mask mAP@50** using YOLO26-L over YOLOv8-L with controlled training hyperparameters and custom stratification.
-
-### 🥗 [Personalized Dietary Assessment Platform](https://github.com/AkramBFS/dietary-assessment-platform)
-> **Next.js • Django REST • PostgreSQL • FastAPI • YOLOv8**
-* Capstone full-stack platform connecting clients with nutritionists, featuring real-time AI calorie and macro estimation from meal photos via an isolated FastAPI computer vision microservice.
 
 ### ✍️ [Smart Pen – Arabic Handwriting Assessment](https://github.com/AkramBFS/smart-pen-assessment)
 > **ESP32 • Flask • WebSockets • Scikit-Learn**
