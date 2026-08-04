@@ -77,18 +77,6 @@
 > **ESP32 • Flask • WebSockets • Scikit-Learn**
 * IoT motion analysis pipeline capturing 6-axis physical dynamics via an IMU sensor at ~20Hz. Extracts 42 statistical motion features to grade handwriting proficiency using Random Forest & MLP models.
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AkramBFS&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AkramBFS&layout=compact&theme=tokyonight&hide=html,css&langs_count=8" />
-
-</div>
-
----
 
 ## 📫 Connect With Me
 
