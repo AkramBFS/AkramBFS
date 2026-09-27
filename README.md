@@ -30,24 +30,24 @@
 
 ### **Languages & Core**
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge\&logo=rust\&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge\&logo=c\&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge\&logo=rust\&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC292B?style=for-the-badge\&logo=sqlite\&logoColor=white)
 
 ### **Web & Backend**
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge\&logo=threedotjs\&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge\&logo=django\&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
 ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge\&logo=socketdotio\&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge\&logo=prisma\&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge\&logo=stripe\&logoColor=white)
-![Tesseract.js](https://img.shields.io/badge/Tesseract.js-3178C6?style=for-the-badge)
 
 ### **AI / ML & Data**
 
@@ -84,11 +84,11 @@
 
 ### 🏠 [ZkRent](https://github.com/AkramBFS/zkrent)
 
-> **Next.js • React • TypeScript • Midnight Network • Compact • Halo2 ZK • PostgreSQL • Prisma • Stripe • Tesseract.js**
+> **Next.js • React • TypeScript • Midnight Network • Compact • Halo2 ZK • PostgreSQL • Prisma • Stripe**
 
 * Privacy-first rental application platform that lets tenants prove financial eligibility without revealing sensitive income, tax, or banking data.
 * Implements **Midnight Compact smart contracts** and **Halo2 zero-knowledge circuits** to verify predicates such as income thresholds and background requirements without exposing the underlying private values.
-* Uses **client-side Tesseract.js OCR with Web Workers and Canvas preprocessing**, ensuring sensitive rental documents never leave the user's browser.
+* Uses **client-side OCR with Web Workers and Canvas preprocessing**, ensuring sensitive rental documents never leave the user's browser.
 * Features pseudonymous tenant screening, consent-driven identity reveal, PostgreSQL metadata persistence, Stripe verification payments, and on-chain proof verification.
 
 ### ⚡ [Dev Gateway Reverse Proxy](https://github.com/AkramBFS/HTTP-server-reverse-proxy)
