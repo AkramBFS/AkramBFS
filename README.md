@@ -15,7 +15,7 @@
 ## 📌 About Me
 
 * 🎓 **Education:** B.Sc. in Computer Science (*Jan 2026*) | Enrolled in **M.Sc. in Artificial Intelligence** (*Sep 2026*) @ *University of Constantine 2 - NTIC*.
-* 💻 **Full-Stack Engineering:** Building scalable web applications with **Next.js**, **React**, **TypeScript**, and **Django REST**.
+* 💻 **Full-Stack Engineering:** Building scalable web applications with **Next.js**, **Three.js**, **React**, **TypeScript**, and **Django REST**.
 * 🧠 **AI & Computer Vision:** Researching and benchmarking state-of-the-art detection/segmentation models (**YOLOv8**, **YOLO26**, **PyTorch**).
 * 🔐 **Privacy & ZK Systems:** Building privacy-preserving applications with **Midnight Network**, **Compact smart contracts**, **Halo2 zero-knowledge proofs**, and client-side data processing.
 * 🦀 **Systems & Backend:** Exploring HTTP server internals, zero-buffering streaming, and network gateways in **Rust** and **C**.
