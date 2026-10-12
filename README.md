@@ -91,6 +91,12 @@
 * Uses **client-side OCR with Web Workers and Canvas preprocessing**, ensuring sensitive rental documents never leave the user's browser.
 * Features pseudonymous tenant screening, consent-driven identity reveal, PostgreSQL metadata persistence, Stripe verification payments, and on-chain proof verification.
 
+### ✍️ [Smart Pen – Arabic Handwriting Assessment](https://github.com/AkramBFS/Smart-Pen)
+
+> **ESP32 • Flask • WebSockets • Scikit-Learn**
+
+* IoT motion analysis pipeline capturing 6-axis physical dynamics via an IMU sensor at ~20Hz. Extracts 42 statistical motion features to grade handwriting proficiency using Random Forest & MLP models.
+
 ### ⚡ [Dev Gateway Reverse Proxy](https://github.com/AkramBFS/HTTP-server-reverse-proxy)
 
 > **Rust • Axum • Hyper • WebSockets**
@@ -104,12 +110,6 @@
 
 * Empirical deep learning benchmark evaluating instance segmentation model improvements on the FoodInSeg dataset (73 classes).
 * Achieved **+20.3% relative improvement in Mask mAP@50** using YOLO26-L over YOLOv8-L with controlled training hyperparameters and custom stratification.
-
-### ✍️ [Smart Pen – Arabic Handwriting Assessment](https://github.com/AkramBFS/Smart-Pen)
-
-> **ESP32 • Flask • WebSockets • Scikit-Learn**
-
-* IoT motion analysis pipeline capturing 6-axis physical dynamics via an IMU sensor at ~20Hz. Extracts 42 statistical motion features to grade handwriting proficiency using Random Forest & MLP models.
 
 ## 📫 Connect With Me
 
