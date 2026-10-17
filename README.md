@@ -14,13 +14,13 @@
 
 ## 📌 About Me
 
-* 🎓 **Education:** B.Sc. in Computer Science (*Jan 2026*) | Enrolled in **M.Sc. in Artificial Intelligence** (*Sep 2026*) @ *University of Constantine 2 - NTIC*.
-* 💻 **Full-Stack Engineering:** Building scalable web applications with **Next.js**, **Three.js**, **React**, **TypeScript**, and **Django REST**.
-* 🧠 **AI & Computer Vision:** Researching and benchmarking state-of-the-art detection/segmentation models (**YOLOv8**, **YOLO26**, **PyTorch**).
-* 🔐 **Privacy & ZK Systems:** Building privacy-preserving applications with **Midnight Network**, **Compact smart contracts**, **Halo2 zero-knowledge proofs**, and client-side data processing.
-* 🦀 **Systems & Backend:** Exploring HTTP server internals, zero-buffering streaming, and network gateways in **Rust** and **C**.
-* 📡 **IoT & Embedded:** Experience with sensor data streaming (ESP32/IMU) and real-time offline ML feature extraction pipelines.
-* 👥 **Workflows:** Agile/Scrum team workflow advocate, Git/GitHub, and system design modeling (UML/Figma).
+- 🎓 **Education:** B.Sc. in Computer Science (*Jan 2026*) | Enrolled in **M.Sc. in Artificial Intelligence** (*Sep 2026*) @ *University of Constantine 2 - NTIC*.
+- 💻 **Full-Stack Engineering:** Building scalable web architectures with **Next.js**, **React**, **TypeScript**, **Django REST**, **PostgreSQL**, **Redis**, and **WebGL/Three.js**.
+- 🧠 **AI & Computer Vision:** Researching, benchmarking, and deploying detection/segmentation pipelines (**YOLOv8**, **YOLO26**, **PyTorch**, **ONNX Runtime**).
+- 🔐 **Privacy & ZK Systems:** Building privacy-preserving applications with **Midnight Network**, **Compact smart contracts**, **Halo2 zero-knowledge proofs**, and client-side data processing.
+- 🦀 **Systems & Backend:** Exploring HTTP server internals, asynchronous worker queues, zero-buffering streaming, and network gateways in **Rust**, **C**, and **Python**.
+- 📡 **IoT & Embedded:** Experience with sensor data streaming (ESP32/IMU) and real-time offline ML feature extraction pipelines.
+- 👥 **Workflows:** Agile/Scrum team workflow advocate, CI/CD automation (GitHub Actions, Docker), and system design modeling (UML/Figma).
 
 ---
 
@@ -44,6 +44,8 @@
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge\&logo=threedotjs\&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge\&logo=django\&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge\&logo=postgresql\&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge\&logo=redis\&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge\&logo=prisma\&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge\&logo=stripe\&logoColor=white)
@@ -51,6 +53,7 @@
 ### **AI / ML & Data**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge\&logo=pytorch\&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge\&logo=onnx\&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge\&logo=opencv\&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge\&logo=scikitlearn\&logoColor=white)
 
@@ -64,6 +67,7 @@
 ### **Other Tools & Infrastructure**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge\&logo=figma\&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge\&logo=espressif\&logoColor=white)
@@ -74,40 +78,42 @@
 
 ## 🚀 Featured Projects
 
-### 🥗 [Personalized Dietary Assessment Platform SVMB](https://github.com/AkramBFS/personalized-dietary-platform)
+### 🥗 [Personalized Dietary Assessment Platform (NutriPlatform / SVMB)](https://github.com/AkramBFS/personalized-dietary-platform)
 
-> **Next.js • React • TypeScript • Django REST • PostgreSQL • FastAPI • YOLOv8**
+> **Next.js • React • TypeScript • Django REST • PostgreSQL • Redis • FastAPI • ONNX Runtime • YOLOv8 • Stripe • WebGL**
 
-* Capstone full-stack platform connecting clients with nutritionists, featuring real-time AI calorie and macro estimation from meal photos via an isolated FastAPI computer vision microservice.
+- Full-stack nutrition consultation and meal plan marketplace built on a modular monolith architecture with a Next.js BFF proxy, multi-role dashboards, and a WebGL2/GLSL shader landing experience.
+- Engineered an asynchronous AI food analysis pipeline using PostgreSQL job queues (`SKIP LOCKED`), Redis caching, and an isolated FastAPI microservice serving `YOLOv8l-seg` via ONNX Runtime for instance segmentation and macro estimation.
+- Implemented PostgreSQL Row-Level Security (RLS), Fernet field-level encryption for sensitive clinical data, idempotent Stripe checkout webhooks, and a Groq LLaMA 3.3 nutrition assistant.
 
 ### 🏠 [ZkRent](https://github.com/AkramBFS/zkrent)
 
 > **Next.js • React • TypeScript • Midnight Network • Compact • Halo2 ZK • PostgreSQL • Prisma • Stripe**
 
-* Privacy-first rental application platform that lets tenants prove financial eligibility without revealing sensitive income, tax, or banking data.
-* Implements **Midnight Compact smart contracts** and **Halo2 zero-knowledge circuits** to verify predicates such as income thresholds and background requirements without exposing the underlying private values.
-* Uses **client-side OCR with Web Workers and Canvas preprocessing**, ensuring sensitive rental documents never leave the user's browser.
-* Features pseudonymous tenant screening, consent-driven identity reveal, PostgreSQL metadata persistence, Stripe verification payments, and on-chain proof verification.
+- Privacy-first rental application platform that lets tenants prove financial eligibility without revealing sensitive income, tax, or banking data.
+- Implements **Midnight Compact smart contracts** and **Halo2 zero-knowledge circuits** to verify predicates such as income thresholds and background requirements without exposing the underlying private values.
+- Uses **client-side OCR with Web Workers and Canvas preprocessing**, ensuring sensitive rental documents never leave the user's browser.
+- Features pseudonymous tenant screening, consent-driven identity reveal, PostgreSQL metadata persistence, Stripe verification payments, and on-chain proof verification.
 
 ### ✍️ [Smart Pen – Arabic Handwriting Assessment](https://github.com/AkramBFS/Smart-Pen)
 
 > **ESP32 • Flask • WebSockets • Scikit-Learn**
 
-* IoT motion analysis pipeline capturing 6-axis physical dynamics via an IMU sensor at ~20Hz. Extracts 42 statistical motion features to grade handwriting proficiency using Random Forest & MLP models.
+- IoT motion analysis pipeline capturing 6-axis physical dynamics via an IMU sensor at ~20Hz. Extracts 42 statistical motion features to grade handwriting proficiency using Random Forest & MLP models.
 
 ### ⚡ [Dev Gateway Reverse Proxy](https://github.com/AkramBFS/HTTP-server-reverse-proxy)
 
 > **Rust • Axum • Hyper • WebSockets**
 
-* A lightweight, zero-buffering local development gateway proxy written in Rust.
-* Supports transparent full-duplex WebSocket tunneling, exact prefix routing, auto-retries for idempotent requests, and strict hop-by-hop header sanitization.
+- A lightweight, zero-buffering local development gateway proxy written in Rust.
+- Supports transparent full-duplex WebSocket tunneling, exact prefix routing, auto-retries for idempotent requests, and strict hop-by-hop header sanitization.
 
 ### 🔬 [FoodInSeg CV Research (YOLOv8 vs. YOLO26)](https://github.com/AkramBFS/foodinseg-yolo26)
 
 > **Python • PyTorch • YOLO26 • OpenCV**
 
-* Empirical deep learning benchmark evaluating instance segmentation model improvements on the FoodInSeg dataset (73 classes).
-* Achieved **+20.3% relative improvement in Mask mAP@50** using YOLO26-L over YOLOv8-L with controlled training hyperparameters and custom stratification.
+- Empirical deep learning benchmark evaluating instance segmentation model improvements on the FoodInSeg dataset (73 classes).
+- Achieved **+20.3% relative improvement in Mask mAP@50** using YOLO26-L over YOLOv8-L with controlled training hyperparameters and custom stratification.
 
 ## 📫 Connect With Me
 
