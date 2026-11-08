@@ -41,6 +41,7 @@
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge\&logo=vite\&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge\&logo=threedotjs\&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge\&logo=django\&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
@@ -56,6 +57,7 @@
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge\&logo=onnx\&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge\&logo=opencv\&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge\&logo=scikitlearn\&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini%20%2F%20Gemma%204-8E75B2?style=for-the-badge\&logo=googlegemini\&logoColor=white)
 
 ### **Privacy, ZK & Web3**
 
@@ -86,7 +88,15 @@
 - Engineered an asynchronous AI food analysis pipeline using PostgreSQL job queues (`SKIP LOCKED`), Redis caching, and an isolated FastAPI microservice serving `YOLOv8l-seg` via ONNX Runtime for instance segmentation and macro estimation.
 - Implemented PostgreSQL Row-Level Security (RLS), Fernet field-level encryption for sensitive clinical data, idempotent Stripe checkout webhooks, and a Groq LLaMA 3.3 nutrition assistant.
 
-### 🏠 [ZkRent](https://github.com/AkramBFS/zkrent)
+### 📐 [GemmaTH — Video & Notes Study Workspace](https://github.com/AkramBFS/GemmaTH) *(🏆 Hacktoberfest 2027 MLH Winner)*
+
+> **TypeScript • Vite • Gemma 4 / Gemini Vision API • KaTeX • IndexedDB • Screen Capture API**
+
+- Browser-only study workspace built for CS and Machine Learning students to take live-rendered Markdown + KaTeX notes alongside YouTube or local video lectures.
+- Engineered a ~45ms cross-origin frame capture pipeline using `getDisplayMedia` (`preferCurrentTab`) with automatic bounding-box cropping that accounts for Retina/HiDPI scaling, zoom, and scroll position, alongside zero-permission HTML5 `<video>` and clipboard fallbacks.
+- Integrates hosted **Gemma 4 (`31B-it` / `26B-MoE`)** and **Gemini 2.5** vision models to transcribe captured lecture slides into clean LaTeX, generate natural-language formulas via `/` slash commands, and power an offline-first storage split between `localStorage` metadata and compressed `IndexedDB` media.
+
+### 🏠 [ZkRent— ZeroKnowledge Rent Platform](https://github.com/AkramBFS/zkrent)
 
 > **Next.js • React • TypeScript • Midnight Network • Compact • Halo2 ZK • PostgreSQL • Prisma • Stripe**
 
