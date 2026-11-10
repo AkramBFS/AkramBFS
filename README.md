@@ -88,7 +88,7 @@
 - Engineered an asynchronous AI food analysis pipeline using PostgreSQL job queues (`SKIP LOCKED`), Redis caching, and an isolated FastAPI microservice serving `YOLOv8l-seg` via ONNX Runtime for instance segmentation and macro estimation.
 - Implemented PostgreSQL Row-Level Security (RLS), Fernet field-level encryption for sensitive clinical data, idempotent Stripe checkout webhooks, and a Groq LLaMA 3.3 nutrition assistant.
 
-### 📐 [GemmaTH — Video & Notes Study Workspace](https://github.com/AkramBFS/GemmaTH) *(🏆 Hacktoberfest 2027 MLH Winner)*
+### 📐 [GemmaTH — Video & Notes Study Workspace](https://github.com/AkramBFS/GemmaTH) *(🏆 Hacktoberfest 2026 MLH Winner)*
 
 > **TypeScript • Vite • Gemma 4 / Gemini Vision API • KaTeX • IndexedDB • Screen Capture API**
 
